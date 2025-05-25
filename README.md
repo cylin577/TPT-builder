@@ -1,10 +1,15 @@
-
 # TPT-builder
-A nice little script that builds The Powder Toy
-## How to use
 
-  
+A simple script to build [The Powder Toy](https://powdertoy.co.uk/).
 
-	bash <(curl -fsSL https://is.gd/tptbuild)
-## !Warning!
-This script only works on Debian-based system,others won't work
+## Features
+
+- One-command setup and build process
+- Designed for Debian-based Linux systems
+
+## Usage
+
+To run the script, use the following command in your terminal:
+
+```bash
+bash <(curl -fsSL https://is.gd/tptbuild)
