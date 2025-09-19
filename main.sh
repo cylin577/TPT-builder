@@ -53,3 +53,4 @@ meson compile
 trap - ERR  # Clear the error trap
 echo -e "\n🎉 Build complete! To run the game, type \"./powder\" in the terminal."
 echo "📄 Build log saved to: $LOGFILE"
+cd ~/The-Powder-Toy/build-optimized
