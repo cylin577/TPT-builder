@@ -12,4 +12,4 @@ A simple script to build [The Powder Toy](https://powdertoy.co.uk/).
 To run the script, use the following command in your terminal:
 
 ```bash
-bash <(curl -fsSL https://is.gd/tptbuild)
+bash <(curl -fsSL https://bit.ly/buildtpt4me)
