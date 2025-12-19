@@ -48,7 +48,7 @@ sleep 0.2
 cd ~/The-Powder-Toy
 meson setup -Dbuildtype=debugoptimized build-optimized
 cd build-optimized
-meson compile
+meson compile -j $(nproc)
 
 trap - ERR  # Clear the error trap
 echo -e "\n🎉 Build complete! To run the game, type \"./powder\" in the terminal."
